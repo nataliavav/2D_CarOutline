@@ -1,9 +1,7 @@
-Creation of the outline of a 2D Car (Fortran 77)
+Creation of the outline of a 2D Car
 
-A car's 2D outline is received. 
+Part 1: Read the syntetagmenes.txt file, containing 29 points for the outline of a 2D car, and create new points by using cubic SPLINE("news.txt").
 
-Part 1: read the syntetagmenes.txt file, containing 29 points for the outline of a 2D car, and create new points by using cubic SPLINES("news.txt").
+Part 2: Find 10 Control Points that create a Bezier line that estimates the initial 2D car. 
 
-Part 2: find 10 Control Points and create a Bezier line for the 2D car. 
-
-Part 3: Find the position of the car at specific instants, based on its mass and speed.
+Part 3: Study the vehicle's movement through a differential equation, calculated using the Runge-Kutta method. The sensitivity of the results was investigated based on the time step of integration.
